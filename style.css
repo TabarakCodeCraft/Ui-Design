@@ -211,14 +211,15 @@ border-radius: 50%;
 
 }
 .btn .btn2 button{
-    gap: 10px;
-    background: #ccc;
-    border-radius: 10px;
-    width: 150px;
-    height: 50px;
-    color: #202142;
-    border: none;
-    cursor: pointer;
+
+        gap: 10px;
+        background: #ffffff; /* Change to desired background color */
+        border: 1px solid #ccc; /* Change to desired border color */
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        color: #202142;
+        cursor: pointer;
 }
 .btn p{
 font-family: 'Poppins', sans-serif;
@@ -245,7 +246,7 @@ column-gap: 20px;
     color: #000000;
 }
 .name input{
-    width: 210px;
+    width: 202px;
     height: 48px;
     border-radius: 10px;
     border: 2px solid #C3C3E4;
@@ -269,6 +270,10 @@ column-gap: 20px;
     outline: none;
 }
 
+input[type="text"]{
+    font-size: 16px;
+    padding: 0 10px; 
+}
 .content2 .Online{
     margin-top: 50px;
 }
@@ -282,7 +287,7 @@ column-gap: 20px;
 .Online .Online11{
     align-items: center;
     display: flex;
-    width: 450px;
+    width: 475px;
     height: 48px;
     border-radius: 10px;
     border: 2px solid #C3C3E4; 
