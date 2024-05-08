@@ -115,13 +115,15 @@ justify-content: center;
 }
 .sideLeft{
     width: 30%;
-    position: sticky;
 }
 
 .sideLeft .content1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
+    top: 30px;
+
 }
 .content1 h1{
     width: 100px;
